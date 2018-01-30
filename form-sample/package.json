@@ -13,9 +13,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "babel-eslint": "^8.2.1",
     "eslint": "^4.16.0",
     "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-defaults": "^9.0.0",
     "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-react": "^7.6.1",
     "http-server": "^0.11.1",
     "nightwatch": "^0.9.19",
     "saucelabs": "^1.4.0",
