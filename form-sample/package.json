@@ -1,0 +1,24 @@
+{
+  "name": "form-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/index.js",
+  "scripts": {
+    "start": "http-server",
+    "selenium": "webdriver-manager update && webdriver-manager start",
+    "e2e-test": "nightwatch -t tests/App.js -e chrome",
+    "sauce-test": "nightwatch -c nightwatch.sauce.json -e iphone_X_simulator",
+    "sauce-test-all": "nightwatch -c nightwatch.sauce.json -e chrome,chrome_osx,ie11,firefox,internet_explorer_edge,android_7_1_emulator,iphone_X_simulator"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "http-server": "^0.11.1",
+    "nightwatch": "^0.9.19",
+    "saucelabs": "^1.4.0",
+    "webdriver-manager": "^12.0.6"
+  }
+}
