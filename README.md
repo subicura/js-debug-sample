@@ -4,6 +4,7 @@
 
 - [Node.js 8.x](https://nodejs.org/)
 - [Visual Studio Code](https://code.visualstudio.com/)
+- [Java 8](https://java.com/ko/download/) for e2e test
 
 ## install
 
