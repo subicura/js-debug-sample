@@ -3,6 +3,7 @@
 ## requirement
 
 - [Node.js 8.x](https://nodejs.org/)
+- [Visual Studio Code](https://code.visualstudio.com/)
 
 ## install
 
