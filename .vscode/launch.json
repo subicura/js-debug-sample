@@ -8,5 +8,16 @@
             "url": "http://localhost:3000/",
             "webRoot": "${workspaceFolder}/react-app-sample"
         },
+        {
+            "name": "Launch Express Server",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/react-app-sample",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": [
+                "run-script", "express"
+            ],
+            "port": 9229
+        }
     ]
 }

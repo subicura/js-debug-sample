@@ -25,6 +25,20 @@ class App extends Component {
     } else {
       this.setState({result: 'failure'});
     }
+
+    // this.login();
+  }
+  login() {
+    const { id, password } = this.state;
+    const endpoint = 'http://localhost:5000/login';
+    const opts = { id, password };
+    fetch(endpoint, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(opts)
+    }).then(res => this.setState({ result: res.status == '200' ? 'success' : 'failure' }));
   }
   render() {
     return (
