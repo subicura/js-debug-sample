@@ -6,6 +6,8 @@
   "scripts": {
     "start": "http-server",
     "selenium": "webdriver-manager update && webdriver-manager start",
+    "google-test": "nightwatch -t tests/google.js -e chrome",
+    "google-ff-test": "nightwatch -t tests/google.js -e firefox",
     "e2e-test": "nightwatch -t tests/App.js -e chrome",
     "sauce-test": "nightwatch -c nightwatch.sauce.json -e iphone_X_simulator",
     "sauce-test-all": "nightwatch -c nightwatch.sauce.json -e chrome,chrome_osx,ie11,firefox,internet_explorer_edge,android_7_1_emulator,iphone_X_simulator"
