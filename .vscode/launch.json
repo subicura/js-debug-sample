@@ -18,6 +18,13 @@
                 "run-script", "express"
             ],
             "port": 9229
+        },
+        {
+            "name": "Launch Blank Page",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:8080/",
+            "webRoot": "${workspaceFolder}/blank"
         }
     ]
 }

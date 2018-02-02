@@ -1,0 +1,16 @@
+{
+  "name": "blank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/index.js",
+  "scripts": {
+    "start": "http-server",
+    "livereload": "livereload ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "livereload": "^0.6.3"
+  }
+}
